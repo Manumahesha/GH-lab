@@ -19,5 +19,5 @@ else:
     print(f"Fibonacci series up to {num_terms} terms:", fib_series)
 
 //output
-Enter the number of terms in the Fibonacci series: 2
-Fibonacci series up to 2 terms: [0, 1]
+//Enter the number of terms in the Fibonacci series: 2
+//Fibonacci series up to 2 terms: [0, 1]
