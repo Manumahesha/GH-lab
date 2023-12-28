@@ -17,3 +17,7 @@ if num_terms <= 0:
 else:
     fib_series = [fibonacci(i) for i in range(1, num_terms + 1)]
     print(f"Fibonacci series up to {num_terms} terms:", fib_series)
+
+//output
+Enter the number of terms in the Fibonacci series: 2
+Fibonacci series up to 2 terms: [0, 1]
