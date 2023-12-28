@@ -10,8 +10,6 @@ def prime(x, y):
 			else:
 				prime_list.append(i)
 	return prime_list
-
-
 starting_range = 0
 ending_range = 100
 lst = prime(starting_range, ending_range)
