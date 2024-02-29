@@ -1,0 +1,59 @@
+1)
+Create 1 folder in PC
+Goto VS code
+>git init
+>git clone <url>
+>cd 
+create a file(xxx.py) & write
+>git add .
+>git commit -m "hii"
+>git push url
+
+2)
+>git checkout -b feature-branch
+create a file(xxx.py) & write
+>git add .
+>git commit -m "features-branch"
+>git push origin features-branch: main 
+
+3)
+>git checkout -b feature-branch
+create a file(xxx.py) & write
+>git add .
+>git commit -m "hii"
+>git fetch origin
+>git rebase origin/main
+>git push origin feature branch:main
+
+4)
+create a file(xxx.py) & write
+>git tag v1.0
+>git tag  -a v1.0
+>git tag  -a v1.0.1  -m "hello"
+>git show v1.0.1
+
+5)
+>git checkout -b features-branch 
+create a file(xxx.py) & write
+>git add .
+>git commit -m "main"
+>git push
+>git status
+>git log --oneline
+>git checkout - m main
+>git branch-v
+>git cherry-pick( copy the code after log oneline )
+
+6)
+create a file(xxx.py) & write
+>git add .
+>git commit -m "hii"
+>git push url
+
+>git show (you will get commit id)
+>git show <commit_id>
+>git log --author="Abhijna08"
+>git log --after="2024-02-25"
+>git log --before="2024-02-22"
+>git log -n 1
+git revert <commit id>
