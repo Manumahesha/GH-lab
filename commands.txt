@@ -1,22 +1,29 @@
 1)
-Create 1 folder in PC
-Goto VS code
 >git init
 >git clone <url>
->cd 
+>cd <tab>
 create a file(xxx.py) & write
 >git add .
 >git commit -m "hii"
 >git push url
 
 2)
+>git init
+>git clone <url>
+>cd <tab>
 >git checkout -b feature-branch
 create a file(xxx.py) & write
 >git add .
 >git commit -m "features-branch"
 >git push origin features-branch: main 
+>git satsh
+>git checkout new-branch
+>git stash apply
 
 3)
+>git init
+>git clone <url>
+>cd <tab>
 >git checkout -b feature-branch
 create a file(xxx.py) & write
 >git add .
@@ -24,12 +31,15 @@ create a file(xxx.py) & write
 >git fetch origin
 >git rebase origin/main
 >git push origin feature branch:main
+>git merge feature-branch
+>git pull origin feature-branch
+>git push
 
 4)
 create a file(xxx.py) & write
 >git tag v1.0
->git tag  -a v1.0
 >git tag  -a v1.0.1  -m "hello"
+>git tag  -a v1.0
 >git show v1.0.1
 
 5)
@@ -41,8 +51,8 @@ create a file(xxx.py) & write
 >git status
 >git log --oneline
 >git checkout - m main
->git branch-v
 >git cherry-pick( copy the code after log oneline )
+>git cherry-pick --continue
 
 6)
 create a file(xxx.py) & write
