@@ -1,7 +1,9 @@
 1)
+Create folder in ur PC
+open vscode terminal 
 >git init
 >git clone <url>
->cd <tab>
+>cd <tab>(2 times)
 create a file(xxx.py) & write
 >git add .
 >git commit -m "hii"
@@ -10,30 +12,28 @@ create a file(xxx.py) & write
 2)
 >git init
 >git clone <url>
->cd <tab>
+>cd <tab>(2 times)
 >git checkout -b feature-branch
 create a file(xxx.py) & write
 >git add .
->git commit -m "features-branch"
->git push origin features-branch: main 
->git satsh
->git checkout new-branch
->git stash apply
+>git commit -m "hii"
+>git checkout main
+>git merge feature-branch 
+>git push origin main
 
 3)
 >git init
 >git clone <url>
->cd <tab>
+>cd <tab>(2 times)
 >git checkout -b feature-branch
 create a file(xxx.py) & write
 >git add .
 >git commit -m "hii"
 >git fetch origin
 >git rebase origin/main
->git push origin feature branch:main
->git merge feature-branch
->git pull origin feature-branch
->git push
+>git checkout main
+>git merge feature-branch 
+>git push origin main
 
 4)
 create a file(xxx.py) & write
