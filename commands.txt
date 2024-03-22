@@ -68,11 +68,9 @@ create a file(xxx.py) & write
 create a file(xxx.py) & write
 >git add .
 >git commit -m "hii"
->git push url
->git show (you will get commit id)
->git show <commit_id>
->git log --author="Abhijna08"
->git log --after="2024-02-25"
->git log --before="2024-02-22"
+>git push <url>
+>git log --oneline
+>git show <commit_id>(paste from log)
+>git log --author="xyz" --after="2024-03-01" --before="2024-03-31"
 >git log -n 1
-git revert <commit id>
+>git revert <commit id>
